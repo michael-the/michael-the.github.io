@@ -1,2 +1,2 @@
-michael-the.github.io
+michaelthe.github.io
 =====================
