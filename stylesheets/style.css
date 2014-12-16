@@ -22,6 +22,7 @@ div{
 
 #mainContainer{
     width: 60%;
+    min-height: 1080px;
 }
 
 
