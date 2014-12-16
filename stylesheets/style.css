@@ -1,34 +1,32 @@
 
-
-body{
+body {
     font-family: 'Inconsolata', sans-serif;
-    background-color: rgba(255,0,0, 0.7);
+    background-color: #ff8000;
+    color: #fefefe;
 }
 
-div{
+div {
     padding: 0;
     margin: 0;
 }
 
-#topContainer{
+#topContainer {
     width: 90%;
     padding-left: 5%;
 }
 
-#leftContainer, #mainContainer, #rightContainer{
+#leftContainer, #mainContainer, #rightContainer {
     display: inline-block;
     width: 20%;
 }
 
-#mainContainer{
+#mainContainer {
     width: 60%;
 }
 
-
-
 @media (max-width: 720px) {
 
-    #leftContainer, #mainContainer, #rightContainer{
+    #leftContainer, #mainContainer, #rightContainer {
         display: block;
         width: 90%;
         padding-left: 5%;
