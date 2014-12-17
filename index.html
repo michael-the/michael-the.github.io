@@ -27,14 +27,53 @@
           content="Michael Theodorides">
 
     <!-- Android shit -->
-    <meta name="theme-color" content="#ff8000">
+    <meta name="theme-color" content="#303030">
 
     <!-- lets do this shit -->
     <link rel="shortcut icon" href="img/favicon.png">
 
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <link href="bower_components/normalize.css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <style rel="stylesheet" type="text/css">
+        body {
+            font-family: 'Inconsolata', sans-serif;
+            background-color: #303030;
+            color: #fefefe;
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        #topContainer {
+            width: 90%;
+            padding-left: 5%;
+        }
+
+        #leftContainer, #mainContainer, #rightContainer {
+            display: inline-block;
+            width: 20%;
+        }
+
+        #mainContainer {
+            width: 60%;
+        }
+
+        @media (max-width: 720px) {
+
+            #leftContainer, #mainContainer, #rightContainer {
+                display: block;
+                width: 90%;
+                padding-left: 5%;
+            }
+
+        }
+    </style>
 
     <script type="text/javascript" src="bower_components/zepto/zepto.min.js"></script>
     <script type="text/javascript" src="javascripts/app.js"></script>
@@ -57,18 +96,20 @@
         <p>
             I'm an engineer, an engineer that happens to love web.
             My favorite language is JavaScript and i believe node is a gift from cod.
+            I prefer vanilla javascript whenever possible. When necessary i use jQuery like libraries.
         </p>
 
         <p>
             My favorite car is the model S.
-            I believe Elan Musk is the guy.
+            I believe humanity need more people like Elan Musk.
+            In which case the planet will be a much better place to live.
         </p>
 
         <p>
             I love cycling, walking, reading, and music listening.
+            Yes! i do watch game of thrones.
         </p>
 
-        <p>
     </div>
 </div>
 
