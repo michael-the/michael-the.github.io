@@ -39,6 +39,8 @@
             font-family: 'Inconsolata', sans-serif;
             background-color: #303030;
             color: #fefefe;
+            display: flex;
+            flex-flow: column;
         }
 
         div {
@@ -51,27 +53,55 @@
         }
 
         #topContainer {
-            width: 90%;
-            padding-left: 5%;
+            flex: 1;
+            padding: 40px 0 0 10%;
+        }
+
+        #middleContainer {
+            display: flex;
+            flex-flow: row;
+            flex: 10;
         }
 
         #leftContainer, #mainContainer, #rightContainer {
-            display: inline-block;
-            width: 20%;
+            display: flex;
+            flex-flow: column;
+            flex: 2;
+
         }
 
         #mainContainer {
-            width: 60%;
+            flex: 6;
+            padding: 25px 50px 25px 50px;
         }
 
         @media (max-width: 720px) {
-
-            #leftContainer, #mainContainer, #rightContainer {
-                display: block;
-                width: 90%;
-                padding-left: 5%;
+            #topContainer {
+                flex: 1;
+                padding: 0;
             }
 
+            h1 {
+                text-align: center;
+            }
+
+            #middleContainer {
+                display: flex;
+                flex-flow: column;
+                flex: 10;
+            }
+
+            #leftContainer, #mainContainer, #rightContainer {
+                display: flex;
+                flex-flow: column;
+                flex: 1;
+
+            }
+
+            #mainContainer {
+                flex: 6;
+                padding: 0 50px 0 50px;
+            }
         }
     </style>
 
@@ -80,46 +110,34 @@
 
 </head>
 <body>
-
 <div id="topContainer">
     <h1>Michael Theodorides.</h1>
 </div>
+<div id="middleContainer">
+    <div id="leftContainer"></div>
+    <div id="mainContainer">
+        <h2>Hi!</h2>
 
-<div id="leftContainer">
-
-</div>
-
-<div id="mainContainer">
-    <h2>Hi!</h2>
-
-    <div>
-        <p>
+        <div><p>
             I'm an engineer, an engineer that happens to love web.
             My favorite language is JavaScript and i believe node is a gift from cod.
             I prefer vanilla javascript whenever possible. When necessary i use jQuery like libraries.
         </p>
 
-        <p>
-            My favorite car is the model S.
-            I believe humanity need more people like Elan Musk.
-            In which case the planet will be a much better place to live.
-        </p>
+            <p>
+                My favorite car is the model S.
+                I believe humanity need more people like Elan Musk.
+                In which case the planet will be a much better place to live.
+            </p>
 
-        <p>
-            I love cycling, walking, reading, and music listening.
-            Yes! i do watch game of thrones.
-        </p>
-
+            <p>
+                I love cycling, walking, reading, and music listening.
+                Yes! i do watch game of thrones.
+            </p>
+        </div>
     </div>
+    <div id="rightContainer"></div>
 </div>
-
-<div id="rightContainer">
-
-</div>
-
-<div id="bottomContainer">
-
-</div>
-
+<div id="bottomContainer"></div>
 </body>
 </html>
