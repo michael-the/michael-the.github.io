@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: michael theodorides
+email: mc.thedorides@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+
+  This blog will be; if everything goes according to plan; all about software engineering and programing.
+  I will try to document my interest and projects that I will get involved with.
+  Hopefully it will be useful to someone out there.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://michaelthe.github.io" # the base hostname & protocol for your site
+twitter_username: _michaelthe
+github_username:  michaelthe
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
