@@ -4,21 +4,20 @@ title: About
 permalink: /about/
 ---
     
-TL;DR
----
+# TL;DR
+
 
 I’m an engineer, an engineer that happens to love the Web. 
 My favorite language is JavaScript and I’m really interested in nodejs.
 I really enjoy vanilaJS and that’s even more true now that ES6 is out. 
 
-Links
----
+# Links
+
 
 * [github][1] 
 * [curriculum vitae][2]
 
-You can call me mike,
----
+# You can call me mike,
 
 From very young age i was interested in technology and electronics.
 I was the go to guy in my family when there was a problem with the DVR or something.

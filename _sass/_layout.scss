@@ -92,8 +92,6 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
@@ -128,29 +126,29 @@
 
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -158,11 +156,9 @@
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
@@ -194,8 +190,6 @@
     font-size: 24px;
 }
 
-
-
 /**
  * Posts
  */
@@ -216,27 +210,31 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
-
+    h1 {
+        font-size: 38px;
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 34px;
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+        @include media-query($on-laptop) {
+            font-size: 26px;
         }
     }
 
     h3 {
-        font-size: 26px;
-
+        font-size: 22px;
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 
     h4 {
-        font-size: 20px;
-
+        font-size: 18px;
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 14px;
         }
     }
 }
