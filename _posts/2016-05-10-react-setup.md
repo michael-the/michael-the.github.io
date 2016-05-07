@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React setup"
-date:   2016-05-6 07:00:00 +0300
+date:   2016-05-7 07:00:00 +0300
 categories: tutorials
 ---
 
